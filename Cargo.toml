@@ -1,0 +1,15 @@
+[package]
+autobins = false
+name = "tuplet"
+version = "0.0.1"
+authors = ["Yasuhiro Яша Asaka <yasuhiro.asaka@grauwoelfchen.net>"]
+description = ""
+repository = "https://gitlab.com/n-tuple/tuplet"
+edition = "2018"
+keywords = []
+license = "GPL-3.0-or-later"
+
+[dev-dependencies.cargo-husky]
+version = "1"
+default-features = false
+features = ["user-hooks"]
